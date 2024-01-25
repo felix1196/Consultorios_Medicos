@@ -1,0 +1,12 @@
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\bin\Debug\net6.0\CapaEnlaceDatos.deps.json
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\bin\Debug\net6.0\CapaEnlaceDatos.dll
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\bin\Debug\net6.0\CapaEnlaceDatos.pdb
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\CapaEnlaceDatos.csproj.AssemblyReference.cache
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\CapaEnlaceDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\CapaEnlaceDatos.AssemblyInfoInputs.cache
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\CapaEnlaceDatos.AssemblyInfo.cs
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\CapaEnlaceDatos.csproj.CoreCompileInputs.cache
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\CapaEnlaceDatos.dll
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\refint\CapaEnlaceDatos.dll
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\CapaEnlaceDatos.pdb
+C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceDatos\obj\Debug\net6.0\ref\CapaEnlaceDatos.dll
