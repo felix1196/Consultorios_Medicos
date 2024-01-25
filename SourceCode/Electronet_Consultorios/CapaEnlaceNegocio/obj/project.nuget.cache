@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KhNSlzEu5rYUhxvGmwcZ6Bai9eXhmZOSHbNDwsE5E2npllNbrC7I0TytYioGKxkl8uZttZBfC1Gctvn9VJxapw==",
+  "dgSpecHash": "aOf5PW2WxTBhC1GKgsk8rqtMdHF01qO+7VGVCMKEDovBh3o+VVXkryEYivWFOHawNyKcJerESaF8R4JL9zwJlA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\FELIX\\source\\repos\\Electronet_Consultorios\\CapaEnlaceNegocio\\CapaEnlaceNegocio.csproj",
+  "projectFilePath": "C:\\Users\\FELIX\\Desktop\\Proyectos\\Consultorios Medicos\\SourceCode\\Electronet_Consultorios\\CapaEnlaceNegocio\\CapaEnlaceNegocio.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FELIX\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\FELIX\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\FELIX\\source\\repos\\Electronet_Consultorios\\CapaEnlaceDatos\\CapaEnlaceDatos.csproj": {}
+    "C:\\Users\\FELIX\\Desktop\\Proyectos\\Consultorios Medicos\\SourceCode\\Electronet_Consultorios\\CapaEnlaceDatos\\CapaEnlaceDatos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\FELIX\\source\\repos\\Electronet_Consultorios\\CapaEnlaceDatos\\CapaEnlaceDatos.csproj": {
+    "C:\\Users\\FELIX\\Desktop\\Proyectos\\Consultorios Medicos\\SourceCode\\Electronet_Consultorios\\CapaEnlaceDatos\\CapaEnlaceDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\FELIX\\source\\repos\\Electronet_Consultorios\\CapaEnlaceDatos\\CapaEnlaceDatos.csproj",
+        "projectUniqueName": "C:\\Users\\FELIX\\Desktop\\Proyectos\\Consultorios Medicos\\SourceCode\\Electronet_Consultorios\\CapaEnlaceDatos\\CapaEnlaceDatos.csproj",
         "projectName": "CapaEnlaceDatos",
-        "projectPath": "C:\\Users\\FELIX\\source\\repos\\Electronet_Consultorios\\CapaEnlaceDatos\\CapaEnlaceDatos.csproj",
+        "projectPath": "C:\\Users\\FELIX\\Desktop\\Proyectos\\Consultorios Medicos\\SourceCode\\Electronet_Consultorios\\CapaEnlaceDatos\\CapaEnlaceDatos.csproj",
         "packagesPath": "C:\\Users\\FELIX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\FELIX\\source\\repos\\Electronet_Consultorios\\CapaEnlaceDatos\\obj\\",
+        "outputPath": "C:\\Users\\FELIX\\Desktop\\Proyectos\\Consultorios Medicos\\SourceCode\\Electronet_Consultorios\\CapaEnlaceDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
