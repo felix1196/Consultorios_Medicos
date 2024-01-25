@@ -32,9 +32,11 @@
             label1 = new Label();
             txtNombreEmpleado = new TextBox();
             groupBox1 = new GroupBox();
-            btnAgregarTipoUsuario = new Button();
+            btnAgregarEmpleado = new Button();
+            btnActualizar = new Button();
+            btnAgrearTipoEmpleado = new Button();
             btnSalir = new Button();
-            comboBox1 = new ComboBox();
+            cmbTipoEmpleado = new ComboBox();
             label7 = new Label();
             txtContraseña = new TextBox();
             label6 = new Label();
@@ -58,11 +60,12 @@
             dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dataGridView1.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.DisplayedCells;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(12, 220);
+            dataGridView1.Location = new Point(12, 237);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
             dataGridView1.RowTemplate.Height = 25;
-            dataGridView1.Size = new Size(1013, 310);
+            dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            dataGridView1.Size = new Size(1013, 293);
             dataGridView1.TabIndex = 0;
             // 
             // label1
@@ -84,9 +87,11 @@
             // groupBox1
             // 
             groupBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            groupBox1.Controls.Add(btnAgregarTipoUsuario);
+            groupBox1.Controls.Add(btnAgregarEmpleado);
+            groupBox1.Controls.Add(btnActualizar);
+            groupBox1.Controls.Add(btnAgrearTipoEmpleado);
             groupBox1.Controls.Add(btnSalir);
-            groupBox1.Controls.Add(comboBox1);
+            groupBox1.Controls.Add(cmbTipoEmpleado);
             groupBox1.Controls.Add(label7);
             groupBox1.Controls.Add(txtContraseña);
             groupBox1.Controls.Add(label6);
@@ -102,24 +107,46 @@
             groupBox1.Controls.Add(label1);
             groupBox1.Location = new Point(12, 12);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(1013, 202);
+            groupBox1.Size = new Size(1013, 219);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "Empleados";
             // 
-            // btnAgregarTipoUsuario
+            // btnAgregarEmpleado
             // 
-            btnAgregarTipoUsuario.Location = new Point(391, 147);
-            btnAgregarTipoUsuario.Name = "btnAgregarTipoUsuario";
-            btnAgregarTipoUsuario.Size = new Size(146, 25);
-            btnAgregarTipoUsuario.TabIndex = 16;
-            btnAgregarTipoUsuario.Text = "Agregar Tipo Empleado";
-            btnAgregarTipoUsuario.UseVisualStyleBackColor = true;
+            btnAgregarEmpleado.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnAgregarEmpleado.Location = new Point(164, 190);
+            btnAgregarEmpleado.Name = "btnAgregarEmpleado";
+            btnAgregarEmpleado.Size = new Size(75, 23);
+            btnAgregarEmpleado.TabIndex = 18;
+            btnAgregarEmpleado.Text = "Agregar";
+            btnAgregarEmpleado.UseVisualStyleBackColor = true;
+            btnAgregarEmpleado.Click += btnAgregarEmpleado_Click;
+            // 
+            // btnActualizar
+            // 
+            btnActualizar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnActualizar.Location = new Point(258, 190);
+            btnActualizar.Name = "btnActualizar";
+            btnActualizar.Size = new Size(75, 23);
+            btnActualizar.TabIndex = 17;
+            btnActualizar.Text = "Actualizar";
+            btnActualizar.UseVisualStyleBackColor = true;
+            // 
+            // btnAgrearTipoEmpleado
+            // 
+            btnAgrearTipoEmpleado.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            btnAgrearTipoEmpleado.Location = new Point(823, 61);
+            btnAgrearTipoEmpleado.Name = "btnAgrearTipoEmpleado";
+            btnAgrearTipoEmpleado.Size = new Size(162, 23);
+            btnAgrearTipoEmpleado.TabIndex = 16;
+            btnAgrearTipoEmpleado.Text = "Agregar Tipo de Empleado";
+            btnAgrearTipoEmpleado.UseVisualStyleBackColor = true;
             // 
             // btnSalir
             // 
             btnSalir.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btnSalir.Location = new Point(932, 173);
+            btnSalir.Location = new Point(910, 190);
             btnSalir.Name = "btnSalir";
             btnSalir.Size = new Size(75, 23);
             btnSalir.TabIndex = 15;
@@ -127,18 +154,18 @@
             btnSalir.UseVisualStyleBackColor = true;
             btnSalir.Click += btnSalir_Click;
             // 
-            // comboBox1
+            // cmbTipoEmpleado
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(164, 147);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(209, 23);
-            comboBox1.TabIndex = 14;
+            cmbTipoEmpleado.FormattingEnabled = true;
+            cmbTipoEmpleado.Location = new Point(776, 22);
+            cmbTipoEmpleado.Name = "cmbTipoEmpleado";
+            cmbTipoEmpleado.Size = new Size(209, 23);
+            cmbTipoEmpleado.TabIndex = 14;
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(69, 150);
+            label7.Location = new Point(681, 25);
             label7.Name = "label7";
             label7.Size = new Size(89, 15);
             label7.TabIndex = 13;
@@ -147,7 +174,7 @@
             // txtContraseña
             // 
             txtContraseña.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtContraseña.Location = new Point(765, 62);
+            txtContraseña.Location = new Point(508, 106);
             txtContraseña.Name = "txtContraseña";
             txtContraseña.Size = new Size(147, 23);
             txtContraseña.TabIndex = 12;
@@ -155,7 +182,7 @@
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(684, 65);
+            label6.Location = new Point(427, 109);
             label6.Name = "label6";
             label6.Size = new Size(70, 15);
             label6.TabIndex = 11;
@@ -164,7 +191,7 @@
             // txtUsuario
             // 
             txtUsuario.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            txtUsuario.Location = new Point(765, 22);
+            txtUsuario.Location = new Point(508, 62);
             txtUsuario.Name = "txtUsuario";
             txtUsuario.Size = new Size(147, 23);
             txtUsuario.TabIndex = 10;
@@ -172,7 +199,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(704, 25);
+            label5.Location = new Point(447, 65);
             label5.Name = "label5";
             label5.Size = new Size(50, 15);
             label5.TabIndex = 9;
@@ -196,7 +223,7 @@
             // 
             // txtCorreo
             // 
-            txtCorreo.Location = new Point(446, 62);
+            txtCorreo.Location = new Point(164, 146);
             txtCorreo.Name = "txtCorreo";
             txtCorreo.Size = new Size(209, 23);
             txtCorreo.TabIndex = 6;
@@ -204,7 +231,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(394, 65);
+            label3.Location = new Point(112, 149);
             label3.Name = "label3";
             label3.Size = new Size(46, 15);
             label3.TabIndex = 5;
@@ -260,8 +287,10 @@
         private TextBox txtCorreo;
         private Label label3;
         private Button btnSalir;
-        private ComboBox comboBox1;
+        private ComboBox cmbTipoEmpleado;
         private Label label7;
-        private Button btnAgregarTipoUsuario;
+        private Button btnAgregarEmpleado;
+        private Button btnActualizar;
+        private Button btnAgrearTipoEmpleado;
     }
 }

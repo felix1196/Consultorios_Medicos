@@ -13,3 +13,18 @@ C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\
 C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceNegocio\bin\Debug\net6.0\CapaEnlaceDatos.dll
 C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceNegocio\bin\Debug\net6.0\CapaEnlaceDatos.pdb
 C:\Users\FELIX\source\repos\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.csproj.CopyComplete
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\bin\Debug\net6.0\CapaEnlaceNegocio.deps.json
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\bin\Debug\net6.0\CapaEnlaceNegocio.dll
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\bin\Debug\net6.0\CapaEnlaceNegocio.pdb
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\bin\Debug\net6.0\CapaEnlaceDatos.dll
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\bin\Debug\net6.0\CapaEnlaceDatos.pdb
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.csproj.AssemblyReference.cache
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.AssemblyInfoInputs.cache
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.AssemblyInfo.cs
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.csproj.CoreCompileInputs.cache
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.csproj.CopyComplete
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.dll
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\refint\CapaEnlaceNegocio.dll
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\CapaEnlaceNegocio.pdb
+C:\Users\FELIX\Desktop\Proyectos\Consultorios Medicos\SourceCode\Electronet_Consultorios\CapaEnlaceNegocio\obj\Debug\net6.0\ref\CapaEnlaceNegocio.dll

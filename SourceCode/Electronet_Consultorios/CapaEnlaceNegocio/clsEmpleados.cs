@@ -11,14 +11,14 @@ namespace CapaEnlaceNegocio
     public class clsEmpleados
     {
         private clsManejador M = new clsManejador();
-        public String? m_IdEmpleado { get; set; }
-        public String? m_Nombre { get; set; }
-        public String? m_Telefono { get; set; }
-        public String? m_Correo { get; set; }
+        public String m_IdEmpleado { get; set; }
+        public String m_Nombre { get; set; }
+        public String m_Telefono { get; set; }
+        public String m_Correo { get; set; }
         public DateTime m_FechaNacimiento { get; set; } 
-        public String? m_Usuario { get; set; }
-        public String? m_Contraseña { get; set; }
-        public String? m_TipoUsuario { get; set; }
+        public String m_Usuario { get; set; }
+        public String m_Contraseña { get; set; }
+        public String m_TipoUsuario { get; set; }
 
         public DataTable MostrarEmpleados()
         {
@@ -42,7 +42,7 @@ namespace CapaEnlaceNegocio
                 lst.Add(new clsParametro("@fechaNacimiento", m_FechaNacimiento));                
                 lst.Add(new clsParametro("@usuario", m_Usuario));
                 lst.Add(new clsParametro("@contraseña", m_Contraseña));
-                lst.Add(new clsParametro("@idTipoUsuario", m_TipoUsuario));
+                lst.Add(new clsParametro("@tipoUsuario", m_TipoUsuario));
 
                 lst.Add(new clsParametro("@Mensaje", SqlDbType.VarChar, 100));
                 M.EjecutarSP("CM_RegistrarEmpleado", ref lst);

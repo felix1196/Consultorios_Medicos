@@ -52,5 +52,7 @@ BEGIN
 			@idTipoUsuario,
 			GETDATE()
 		)
+
+		SET @Mensaje = 'Empleado registrado exitosamente.'
 	END
 END
